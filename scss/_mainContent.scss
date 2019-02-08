@@ -1,0 +1,82 @@
+.main-content {
+    height: 100vh;
+    position: relative;
+    &-title{
+        position: relative;
+        top: 38%;
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: $white;
+        }
+        p {
+            font-size: 1.5rem;
+            width: 25%;
+            margin: 0 auto;
+            color: $white;
+        }
+    }
+
+    &-img {
+        &-exam {
+            position: absolute;
+            left: 10%;
+            top: 20%;
+
+        }
+
+        &-studying {
+            right: 10%;
+            position: absolute;
+            top: 40%;
+        }
+    }
+
+    &-actionbar {
+        width: 80%;
+        height: 8rem;
+        position: absolute;
+        bottom: 5%;
+        background-color: rgba($blue-green, 0.8);
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 100px;
+
+        &--circle {
+            width: 5rem;
+            height: 5rem;
+            background-color: red;
+            position: relative;
+            margin: 0 auto;
+            border-radius: 100px;
+
+            span {
+                position: relative;
+                display: block;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &--center{
+                width: 7rem;
+                height: 7rem;
+            }
+
+            &--red {
+                background-color: $circle-red;
+            }
+            &--blue {
+                background-color: $circle-blue;
+            }
+            &--yellow {
+                background-color: $circle-yellow;
+            }
+            &--green {
+                background-color: $circle-green;
+            }
+            &--purple {
+                background-color: $circle-purple;
+            }
+        }
+    }
+}

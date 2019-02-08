@@ -1,0 +1,28 @@
+// COLORS
+$white: #fff;
+$dark-blue: #417DDD;
+$light-blue: #93b5ec;
+$bright-green: #47da84;
+$blue-green: #69bebe;
+
+$circle-blue: #4ebdd8;
+$circle-purple: #afa4e3;
+$circle-red: #c86463;
+$circle-yellow: #afc58b;
+$circle-green: #47da84;
+
+
+
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: rgb(65,125,221);
+    background: linear-gradient(188deg, rgba(65,125,221,1) 0%, rgba(69,185,163,1) 100%);
+}
+
+@import "commonStyles";
+@import "navbar";
+@import "mainContent";
